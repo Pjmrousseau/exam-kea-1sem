@@ -551,7 +551,56 @@ footer {
 }
 
 
+/* ABOUT PAGE */
 
+.box-about{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(assets/about/pauline-about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    grid-column: 10/21;
+    grid-row: 4/12;
+    z-index: -300;
+    opacity: 0.8;
+}
+.about-text{ margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    grid-column: 10/21;
+    grid-row: 13/22;}
+
+/*////////////CONTACT/////////////*/
+.contact{margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+grid-column: 12/14;
+    grid-row:8/12;
+    z-index: -300;
+    opacity: 0.8;
+border: 0.1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: black;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);}
+
+.contact-text{
+     margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    grid-column: 10/21;
+    grid-row: 13/22;
+}
 
 
 /* Desktop END */
@@ -634,6 +683,42 @@ footer {
         grid-row: 18/21;
     }
 
+/*ABOUT PAGE */
+
+    .box-about{
+
+    grid-column: 10/21;
+    grid-row: 5/14;
+
+}
+    .about-text{ grid-column: 10/21;
+    grid-row: 15/22;}
+
+    /*////////////CONTACT/////////////*/
+.contact{margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+grid-column: 12/17;
+    grid-row:8/12;
+    z-index: -300;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: black;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);}
+
+.contact-text{
+     margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    grid-column: 8/21;
+    grid-row: 13/22;
+    text-align: center;
+}
 
 
     /*//////////////images/////////////////*/
@@ -814,8 +899,14 @@ footer {
     nav ul li a:hover {
         text-decoration: underline;
     }
-    button {border: 0.3px;
-border-color: black;}
+ button {margin-top:10px;
+    border: 0.1px solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: black;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
 
 button a {
 
@@ -893,10 +984,49 @@ button a {
         grid-row: 11/12;
     }
 
+
+
+    /*///////  ABOUT PAGE ////////*/
+      .box-about{
+
+    grid-column:5/10;
+    grid-row: 4/7;
+
+}
+    .about-text{grid-column: 3/10;
+    grid-row: 8/11;}
+
+    /*/////////CONTACT PAGE//////////*/
+
+    .contact{margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+grid-column: 3/10;
+    grid-row:5/10;
+    z-index: -300;
+    opacity: 0.8;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-color: black;
+    background: white;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);}
+
+.contact-text{
+     margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    grid-column: 3/10;
+    grid-row: 11/12;
+    text-align: center;
+}
+
     /*/////////////////Pages///////////////////*/
     .box-1 {
 
-    grid-column: 2/12;
+    grid-column: 3/10;
     grid-row: 3/7;
 }
 
@@ -910,7 +1040,7 @@ button a {
 
 .box-4 {
 
-    grid-column: 5/10;
+    grid-column: 5/11;
     grid-row: 7/11;
 }
 
@@ -934,14 +1064,14 @@ button a {
     /* city walk */
     .box-city {
 
-        grid-column: 5/10;
+        grid-column: 5/11;
         grid-row: 3/6;
 
     }
 
     /* thrive */
     .box-thrive {
-     grid-column: 5/10;
+     grid-column: 5/11;
         grid-row: 3/6;
 
     }
@@ -949,7 +1079,7 @@ button a {
     /* redesign */
     .box-redesign {
 
-       grid-column: 5/10;
+       grid-column: 5/11;
         grid-row: 3/6;
 
     }
@@ -957,7 +1087,7 @@ button a {
     /*responsive*/
     .box-responsive {
 
-       grid-column: 5/10;
+       grid-column: 5/11;
         grid-row: 3/6;
 
     }
@@ -965,7 +1095,7 @@ button a {
     /*barbe*/
     .box-barbe {
 
-        grid-column: 5/10;
+        grid-column: 5/11;
         grid-row: 3/6;
 
     }
@@ -973,14 +1103,14 @@ button a {
     /*back*/
     .box-back {
 
-        grid-column: 5/10;
+        grid-column: 5/11;
         grid-row: 3/6;
 
     }
 
     /*pool*/
     .box-pool {
-       grid-column: 5/10;
+       grid-column: 5/11;
         grid-row: 3/6;
 
     }
